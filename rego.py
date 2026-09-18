@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-gork.py - Automated Google Dorking for Bug Bounty Reconnaissance
+rego.py - Automated Google Dorking for Bug Bounty Reconnaissance
 
 Generates and executes targeted dork queries against a target domain,
 following the "forgotten assets" methodology:
@@ -15,9 +15,9 @@ Backends:
   - manual      : just print browser-ready Google URLs (default, safest)
 
 Usage:
-  python3 gork.py -d example.com
-  python3 gork.py -d example.com -b duckduckgo -o results.json --delay 8
-  python3 gork.py -d example.com --custom 'site:*.example.com inurl:admin'
+  python3 rego.py -d example.com
+  python3 rego.py -d example.com -b duckduckgo -o results.json --delay 8
+  python3 rego.py -d example.com --custom 'site:*.example.com inurl:admin'
   export SERPAPI_KEY=xxxx && python3 gork.py -d example.com -b serpapi
 """
 
