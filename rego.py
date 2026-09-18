@@ -18,7 +18,7 @@ Usage:
   python3 rego.py -d example.com
   python3 rego.py -d example.com -b duckduckgo -o results.json --delay 8
   python3 rego.py -d example.com --custom 'site:*.example.com inurl:admin'
-  export SERPAPI_KEY=xxxx && python3 gork.py -d example.com -b serpapi
+  export SERPAPI_KEY=xxxx && python3 rego.py -d example.com -b serpapi
 """
 
 import argparse
